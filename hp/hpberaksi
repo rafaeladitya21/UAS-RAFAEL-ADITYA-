@@ -1,0 +1,15 @@
+
+package Handphone;
+
+public class HandphoneBeraksi {
+    public static void main(String[] args) {
+       Handphone hpku = new Handphone();
+       
+       hpku.hidupkan = "Hidup";
+       hpku.lakukanpanggilan = "Dalam Panggilan";
+       hpku.kirimSMS = "Pesan Terkirim";
+       hpku.matikan = "hp Mati";
+       hpku.printHandphone();
+       
+    }
+}
