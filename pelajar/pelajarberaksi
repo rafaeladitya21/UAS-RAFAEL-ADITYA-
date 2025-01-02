@@ -1,0 +1,14 @@
+
+package Mahasiswa;
+
+public class MahasiswaBeraksi {
+    public static void main(String[] args) {
+        Mahasiswa status = new Mahasiswa();
+        
+        status.membaca = "mahasiswa membaca materi";
+        status.modifikasi = "mahasiswa memodifikasi materi";
+        status.nyontek = "mahasiswa menyontek saat ujian";
+        status.printMahasiswa();
+        
+    }
+}
