@@ -1,0 +1,10 @@
+
+package Halo;
+
+public class HaloIndonesia {
+    public static void main(String[] args) {
+        System.out.println(rafaeladityawijaya");
+        System.out.println("Kelas 1A");
+        System.out.println("NIM 24083000018");
+    }
+}
