@@ -1,0 +1,19 @@
+
+package Interface;
+
+public class TVBeraksi {
+    public static void main(String[] args) {
+        
+        AC control = new TV();
+        
+        System.out.println("Status TV saat ini");
+        
+        control.hidupkan();
+        control.hidupkan();
+        control.matikan();
+        control.matikan();
+        control.matikan();
+        control.hidupkan();
+        control.menyala);
+        control.mati();
+    }
