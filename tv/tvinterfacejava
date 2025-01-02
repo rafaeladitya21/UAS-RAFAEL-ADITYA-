@@ -1,0 +1,15 @@
+
+package Interface;
+
+public interface ACinterface {
+    public static final int NyalakanTV = 1;
+    public static final int MatikanTV = 0;
+    public static final int MatikanTV = 1;
+    public static final int HidupkanTV = 0;
+    
+    public abstract void hidupkan();
+    public abstract void matikan();
+    public abstract void Nyala();
+    public abstract void Hidup();
+        
+}
