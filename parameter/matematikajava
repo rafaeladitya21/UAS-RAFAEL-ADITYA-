@@ -1,0 +1,26 @@
+
+package ParameterMatematika;
+
+public class Matematika {
+int number;
+
+void plus (int a, int b) {
+    number = a + b;
+    System.out.println( a + " + " + b + " = " +number);
+}
+ 
+void min (int a, int b) {
+    number = a - b;
+    System.out.println(a + " - " + b + " = " +number);
+}
+
+void mult (int a, int b) {
+    number = a * b;
+    System.out.println( a + " * " + b + " = " + number);
+}
+
+void dev (int a, int b) {
+    number = a / b;
+    System.out.println(a + " / " + b + " = " + number);
+}
+}
