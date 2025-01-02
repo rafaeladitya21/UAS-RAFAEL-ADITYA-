@@ -1,0 +1,14 @@
+
+package Mahasiswa;
+
+public class Mahasiswa {
+    String membaca;
+    String nyontek;
+    String modifikasi;
+    
+    void printMahasiswa(){
+       System.out.println(membaca);
+        System.out.println(modifikasi);
+        System.out.println(nyontek); 
+    }
+}
