@@ -1,0 +1,51 @@
+package Interface;
+
+public class AC implements ACinterface {
+int statusAC;
+        
+@Override
+    public void hidupkan() {
+        if (statusAC == MatikanAC){
+            statusAC = NyalakanAC;
+            System.out.println("Status AC = Hidup ");
+        }
+        else{
+            System.out.println("Hidupkan TV! --> TV sudah menyala");
+        }
+    }
+
+@Override
+    public void matikan() {
+        if (statusAC == NyalakanTV){
+            statusAC = MatikanTV;
+            System.out.println("Status TV = Mati");
+        }
+        else{
+            System.out.println("Hidupkan TV! --> TV sudah Mati");
+        }
+    }
+
+@Override
+    public void panaskan() {
+        if (statusAC == StopTV ){
+            statusAC = LanjutTV;
+            System.out.println("Status TV = Hidup");
+        }
+        else{
+            System.out.println("Hidupkan TV! --> TV sudah di hidupkan");
+        }
+    }
+
+@Override
+    public void dinginkan() {
+        if (statusTV == HidupkanTV){
+            statusTV = MatikanTV;
+            System.out.println("StatusTV = Matikan");
+        }
+        else{
+            System.out.println("Hidupkan TV! --> TV sudah di Matikan");
+        }
+    }
+    
+    
+}
