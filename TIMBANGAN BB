@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author USER
+ */
+public class BBberaksi {
+     public static void main(String[] args) {
+        // tinggi dan berat
+        BB bmi = new BB(168, 68);
+        
+        // Menghitung dan menampilkan hasil BMI
+        double result = bmi.calculateBMI();
+        System.out.println("Status: " + bmi.getBMIStatus());
+    }
+
+}
