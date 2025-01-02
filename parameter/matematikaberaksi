@@ -1,0 +1,11 @@
+package ParameterMatematika;
+
+public class MatematikaBeraksi {
+    public static void main(String[] args) {
+        Matematika mtk = new Matematika();
+        mtk.plus(20, 20);
+        mtk.min(10, 5);
+        mtk.mult(10, 20);
+        mtk.dev(21, 2);
+    }
+}
