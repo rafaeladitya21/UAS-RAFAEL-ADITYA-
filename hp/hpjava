@@ -1,0 +1,17 @@
+
+package Handphone;
+
+public class Handphone {
+   String hidupkan;
+   String lakukanpanggilan;
+   String kirimSMS;
+   String matikan;
+   
+   void printHandphone(){
+        System.out.println("Kondisi HP : " + hidupkan);
+        System.out.println("Status Panggilan : " + lakukanpanggilan);
+        System.out.println("SMS : " + kirimSMS);
+        System.out.println("Kondisi HP : " + matikan);
+   }
+    
+}
